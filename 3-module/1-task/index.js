@@ -1,3 +1,6 @@
 function namify(users) {
-  // ваш код...
+
+  const names = users.filter((user) => user.name).map((user) => user.name);
+
+  return names;
 }
