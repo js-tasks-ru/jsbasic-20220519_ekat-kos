@@ -1,3 +1,12 @@
 function showSalary(users, age) {
-  // ваш код...
+
+  const searchItems = users
+    .filter(item => item.age <= age)
+    .map(item => `${item.name}, ${item.balance}`);
+
+  if (!searchItems.length[-1]) {
+    return searchItems.join("\n");
+  }
+
+  return searchItems;
 }
