@@ -10,7 +10,6 @@ export default class CartIcon {
 
   render() {
     this.elem = createElement('<div class="cart-icon"></div>');
-
   }
 
   update(cart) {
@@ -77,7 +76,5 @@ export default class CartIcon {
         });
       }
     }
-
-
   }
 }
