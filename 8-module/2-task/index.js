@@ -45,9 +45,4 @@ export default class ProductGrid {
 
     }
   }
-
-  constructor(products) {
-    this.products = products;
-    this.filters = {};
-  }
 }
