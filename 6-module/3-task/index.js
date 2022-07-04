@@ -89,6 +89,7 @@ export default class Carousel {
 
   #onClick = () => {
 
+
     this.#conteiner.forEach((item) => {
       item.addEventListener("click", () => {
         const id = item.closest(".carousel__slide").dataset.id;
